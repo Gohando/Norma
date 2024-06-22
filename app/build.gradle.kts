@@ -3,13 +3,14 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
     id("androidx.navigation.safeargs")
+    id("com.google.dagger.hilt.android")
 }
 android {
-    namespace = "com.gohand.criminalintent"
+    namespace = "com.androiddevs.norma"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.gohand.criminalintent"
+        applicationId = "com.androiddevs.norma"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -50,7 +51,7 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
 
     // Architectural Components
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2")
 
     // Room
     implementation("androidx.room:room-runtime:2.6.1")
@@ -64,8 +65,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
     // Coroutine Lifecycle Scopes
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.2")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.2")
 
     // Navigation Components
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
@@ -80,16 +81,22 @@ dependencies {
     implementation("com.google.android.gms:play-services-maps:18.2.0")
 
     // Dagger Core
-    implementation("com.google.dagger:dagger:2.51")
-    ksp("com.google.dagger:dagger-compiler:2.25.2")
+    implementation("com.google.dagger:dagger:2.51.1")
+    ksp("com.google.dagger:dagger-compiler:2.51.1")
 
     // Dagger Android
     api("com.google.dagger:dagger-android:2.28.1")
     api("com.google.dagger:dagger-android-support:2.28.1")
-    ksp("com.google.dagger:dagger-android-processor:2.23.2")
 
-    // Easy Permissions
-    implementation("pub.devrel:easypermissions:3.0.0")
+    // Activity KTX for viewModels()
+    implementation("androidx.activity:activity-ktx:1.9.0")
+
+    //Dagger - Hilt
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    ksp("com.google.dagger:hilt-android-compiler:2.51.1")
+    ksp("com.google.dagger:hilt-compiler:2.51.1")
+
+    ksp("androidx.hilt:hilt-compiler:1.2.0")
 
     // Timber
     implementation("com.jakewharton.timber:timber:4.7.1")

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Норма</string>
+    <string-array name="filter_options">
+        <item>Дата</item>
+        <item>Продолжительность</item>
+        <item>Расстояние</item>
+        <item>Средняя скорость</item>
+        <item>Калорий сожжено</item>
+    </string-array>
+    <string name="your_runs">Ваши тренировки</string>
+    <string name="statistics">Статистика</string>
+    <string name="settings">Настройки</string>
+    <string name="sort_by">Сортировать по:</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="your_weight">Ваш вес</string>
+    <string name="kg">кг</string>
+    <string name="apply_changes">Применить</string>
+    <string name="enter_name_and_weight">Здравствуйте! Введите своё имя и вес</string>
+    <string name="continue_setup">Далее</string>
+    <string name="total_distance">Общее расстояние</string>
+    <string name="_0km">0км</string>
+    <string name="total_time">Общее время</string>
+    <string name="total_calories_burned">Всего калорий сожжено</string>
+    <string name="_0kcal">0ккал</string>
+    <string name="average_speed">Средняя скорость</string>
+    <string name="_0km_h">0km/h</string>
+    <string name="start">Начать</string>
+    <string name="finish_run">Закончить</string>
+    <string name="let_s_go_username">ИМЯ, ты молодец!</string>
+    <string name="date">ДАТА</string>
+    <string name="time">ВРЕМЯ</string>
+    <string name="distance">РАССТОЯНИЕ</string>
+    <string name="avgspeed">СРСКОРОСТЬ</string>
+    <string name="calories">КАЛОРИИ</string>
+    <string name="duration">ПРОДОЛЖИТЕЛЬНОСТЬ</string>
+    <string name="avg_speed">СР СКОРОСТЬ</string>
+    <string name="calories_burned">КАЛОРИЙ СОЖЖЕНО</string>
+    <string name="cancel_run">Отменить тренировку</string>
+    <string name="stop">Остановить</string>
+    <string name="let_s_go">%1$s, ты молодец!</string>
+    <string name="run_saved_successfully">Тренировка успешно сохранена</string>
+    <string name="cancel">Отменить</string>
+    <string name="permission_denied">Разрешение отклонено</string>
+    <string name="denied_some_permissions">Вы отклонили некоторые разрешения</string>
+    <string name="you_need_permissions">Разрешения необходимы для отслеживания Ваших тренировок</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="cancel_the_run">Отменить тренировку?</string>
+    <string name="cancel_the_run_warning">Вы уверены, что хотите отменить тренировку? Все данные о ней будут потеряны</string>
+    <string name="please_enter_all_the_fields">Заполните все поля</string>
+</resources>

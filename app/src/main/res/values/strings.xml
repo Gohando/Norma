@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RunningApp</string>
+    <string name="app_name">Norma</string>
     <string-array name="filter_options">
         <item>Date</item>
         <item>Running Time</item>
@@ -8,4 +8,48 @@
         <item>Calories Burned</item>
     </string-array>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"></string>
+    <string name="your_runs">Your Runs</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_weight">Your Weight</string>
+    <string name="kg">kg</string>
+    <string name="apply_changes">Apply Changes</string>
+    <string name="enter_name_and_weight">Welcome! Please enter your name and weight</string>
+    <string name="continue_setup">Continue</string>
+    <string name="total_distance">Total Distance</string>
+    <string name="_0km">0km</string>
+    <string name="total_time">Total Time</string>
+    <string name="initial_time" translatable="false">00:00:00</string>
+    <string name="total_calories_burned">Total Calories Burned</string>
+    <string name="_0kcal">0kcal</string>
+    <string name="average_speed">Average Speed</string>
+    <string name="_0km_h">0km/h</string>
+    <string name="initial_time_with_millis" translatable="false">00:00:00:00</string>
+    <string name="start">Start</string>
+    <string name="finish_run">Finish Run</string>
+    <string name="let_s_go_username">Let\'s go, USERNAME!</string>
+    <string name="date">DATE</string>
+    <string name="time">TIME</string>
+    <string name="distance">DISTANCE</string>
+    <string name="avgspeed">AVGSPEED</string>
+    <string name="calories">CALORIES</string>
+    <string name="duration">DURATION</string>
+    <string name="avg_speed">AVG SPEED</string>
+    <string name="calories_burned">CALORIES BURNED</string>
+    <string name="cancel_run">Cancel Run</string>
+    <string name="stop">Stop</string>
+    <string name="let_s_go">Let\'s go %1$s!</string>
+    <string name="run_saved_successfully">Run saved successfully</string>
+    <string name="cancel">Cancel</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="denied_some_permissions">You have denied some permissions. Please go to settings to enable them.</string>
+    <string name="you_need_permissions">You need permissions to properly track your runs</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="cancel_the_run">Cancel the Run?</string>
+    <string name="cancel_the_run_warning">Are you sure you want to cancel the run? All its data will be lost</string>
+    <string name="please_enter_all_the_fields">Please enter all the fields</string>
 </resources>

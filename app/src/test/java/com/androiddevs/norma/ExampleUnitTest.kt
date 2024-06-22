@@ -1,4 +1,4 @@
-package com.androiddevs.runningappyt
+package com.androiddevs.norma
 
 import org.junit.Test
 
